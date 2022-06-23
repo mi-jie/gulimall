@@ -23,7 +23,7 @@ public class RRException extends RuntimeException {
 		super(msg);
 		this.msg = msg;
 	}
-	
+	 
 	public RRException(String msg, Throwable e) {
 		super(msg, e);
 		this.msg = msg;
